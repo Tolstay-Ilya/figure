@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.figure {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+}
+
+.circle__l {
+    position: relative;
+    top: 1%;
+    left: 16%;
+    z-index: 5;
+    width: 16%;
+    height: 16%;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle__l:hover {
+    outline: none;
+    text-decoration: underline;
+    background: yellowgreen;
+}
+
+.circle__r {
+    position: relative;
+    bottom: 15%;
+    left: 47.1%;
+    z-index: 5;
+    width: 16%;
+    height: 16%;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle__r:hover {
+    outline: none;
+    text-decoration: underline;
+    background: teal;
+}
+
+.circle__t {
+    position: relative;
+    bottom: 14%;
+    left: 47%;
+    z-index: 5;
+    width: 16%;
+    height: 16%;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle__t:hover {
+    outline: none;
+    text-decoration: underline;
+    background: green;
+}
+
+.circle__b {
+    position: relative;
+    top: 2%;
+    left: 16%;
+    z-index: 5;
+    top: 100;
+    width: 16%;
+    height: 16%;
+    background: red;
+    border-radius: 50%;
+}
+
+.circle__b:hover {
+    outline: none;
+    text-decoration: underline;
+    background: navy;
+}
+
+.rectangle {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 30%;
+    height: 30%;
+    z-index: 8;
+    background: blue;
+
+}
+
+.rectangle:hover {
+    outline: none;
+    z-index: 12;
+    text-decoration: underline;
+    background: aqua;
+    z-index: 12;
+}
+
+.rounded-rectangle {
+    position: relative;
+    top: 32%;
+    left: 32.5%;
+    width: 15%;
+    height: 15%;
+    z-index: 10;
+    background: orange;
+    border: 12%;
+}
+
+.rounded-rectangle:hover {
+    outline: none;
+    text-decoration: underline;
+    background: chartreuse;
+}
+
+/* width: 100px;
+	height: 100px;
+	background: red; */
